@@ -36,7 +36,6 @@ namespace Todo.Core.Tests
             Assert.Equal("Buy milk", found[0].Title);
         }
 
-        // Тесты для самостоятельного задания (JSON)
         [Fact]
         public void SaveAndLoad_WorksCorrectly()
         {
